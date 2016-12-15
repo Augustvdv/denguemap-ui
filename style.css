@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html,
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+body * {
+	font-family: 'Roboto', sans-serif;
+}
+
+ul {
+	margin: 0px;
+}
+
+button {
+	border: 1px solid grey;
+	background-color: white;
+	font-size: 12pt;
+	border-radius: 3px;
+	padding: 10px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+button:hover {
+  	box-shadow: 0 14px 18px rgba(0,0,0,0.15), 0 5px 5px rgba(0,0,0,0.18);
+}
+
+.container {
+	width: 900px;
+	margin: 20px auto;
+}
+
+#leftcontainer {
+	width: 640px;
+	float: left;
+	margin-right: 20px;
+}
+
+#rightcontainer {
+	width: 218px;
+	float: right;
+	padding: 10px;
+
+	border: 1px solid grey;
+}
+
+#bottomcontainer {
+	width: 900px;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+}
+
+#bottomcontainer button {
+  	margin-right: 20px;
+}
+
+#map,
+#mapsmall {
+	width: 100%;
+}
+
+#middle,
+#top {
+	padding-bottom: 10px;
+}
+#bottom {
+	padding-top: 10px;
+}
+
+#top,
+#middle {
+	border-bottom: 1px solid grey;
+}
+
+.markbutton {
+	margin-top: 10px;
+	padding: 10px 0px;
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+}
+
+#mark {
+	background-image: url(map-marker.png);
+}
+
+#unmark {
+	background-image: url(close.png);
+}
+
+#folderlist {
+	list-style-image: url(folder.png);
+}
+#filetree {
+	list-style-image: url(image.png);
+}
+
